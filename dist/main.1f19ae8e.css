@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ol, li {
+    list-style: none;
+}
+
+body{
+    overflow: hidden;
+}
+body > #page{
+    display: flex;
+    flex-wrap: wrap;
+}
+body > #page > section{
+   width: 50vw;
+   height: 50vh;
+   border: 1px solid grey;
+}
+
+
+#app1{
+    
+    width: 50vw;
+    height: 50vh;
+}
+/* #app1 .output{
+
+}
+#app1 .actions{
+
+} */
+#app2 {
+  
+}
+
+#app2 .guide {
+
+    display: flex;
+}
+
+#app2 .guide>li {
+    width: 50%;
+    border: 3px solid black;
+}
+
+#app2 .guide>li.selected {
+    background: aqua;
+}
+
+#app2 .content {}
+
+#app2 .content>li {
+    display: none;
+}
+#app2 .content> li.active {
+    display: block;
+}
+
+
+#app3 {
+
+}
+#app3 .square {
+    border: 1px solid grey;
+    width: 10vw;
+    height: 10vw;
+    margin-top: 10vw;
+    margin-left: 10vw;
+    transition: transform 1s;
+}
+#app3 .square.moving {
+    transform: translateX(10vw);
+}
+
+
+#app4{}
+
+@keyframes change {
+    0% {
+        background: red;
+    }
+
+    100% { 
+        background: black;
+    }
+}
+#app4 .circle{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+
+#app4 .circle.active{
+    animation: change 2s infinite alternate linear;
+}
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */

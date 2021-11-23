@@ -1,0 +1,27 @@
+#app2 {
+  
+}
+
+#app2 .guide {
+
+    display: flex;
+}
+
+#app2 .guide>li {
+    width: 50%;
+    border: 3px solid black;
+}
+
+#app2 .guide>li.selected {
+    background: aqua;
+}
+
+#app2 .content {}
+
+#app2 .content>li {
+    display: none;
+}
+#app2 .content> li.active {
+    display: block;
+}
+
